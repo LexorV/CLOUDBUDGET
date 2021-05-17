@@ -93,3 +93,26 @@
   line-height: 17px;
   background-color: #fff;
 }
+.header__container-menu-language{
+  height: 32px;
+}
+.header__languge-button {
+  border: none;
+  background-color: rgba(0, 0, 0, 0)
+}
+.header__container-menu-language {
+  display: flex;
+}
+.header__menu-language {
+  list-style-type: none;
+  color: #fff;
+}
+.header__flag {
+  width: 32px;
+  height: 32px;
+}
+.header__menu-languge-list {
+  align-items: center;
+}
+
+
