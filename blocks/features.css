@@ -1,0 +1,5 @@
+.features {
+min-height: 660px;
+display: flex;
+flex-direction: column;
+}
