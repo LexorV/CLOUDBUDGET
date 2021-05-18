@@ -1,0 +1,58 @@
+.technology {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.technology__container {
+  display: flex;
+}
+.technology__cell {
+  width: 255px;
+  height: 226px;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+.technology__namber {
+  width: 117px;
+  height: 120px;
+  position: relative;
+  align-self: center;
+}
+.technology__namber-text {
+margin: 0;
+font-size: 100px;
+font-style: normal;
+font-weight: 700;
+line-height: 120px;
+letter-spacing: 0em;
+z-index: 1;
+color: rgba(16, 16, 16, 0.08);
+}
+.technology__picture {
+  z-index: 2;
+  position: absolute;
+  top: 59px;
+  left: 18px;
+}
+.technology__cell-heading {
+margin: 0;
+font-size: 18px;
+font-style: normal;
+font-weight: 700;
+line-height: 22px;
+letter-spacing: 0em;
+align-self: center;
+padding-top: 19px;
+padding-bottom: 10px;
+}
+.technology__cell-text {
+margin: 0;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 14px;
+text-align: center;
+width: 191px;
+align-self: center;
+}
