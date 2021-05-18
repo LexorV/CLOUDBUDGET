@@ -102,17 +102,26 @@
 }
 .header__container-menu-language {
   display: flex;
+  margin: 0;
+  padding-top: 54px;
 }
 .header__menu-language {
   list-style-type: none;
+  display: inline-block;
   color: #fff;
+  margin: 0;
 }
 .header__flag {
   width: 32px;
   height: 32px;
 }
 .header__menu-languge-list {
-  align-items: center;
+  display: flex;
 }
+.header__text-languge {
+  align-self: center;
+  padding-left: 10px;
+}
+
 
 
