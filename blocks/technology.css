@@ -1,10 +1,12 @@
 .technology {
+  margin: 0;
   height: 500px;
   display: flex;
   flex-direction: column;
 }
 .technology__container {
   display: flex;
+  justify-content: center;
 }
 .technology__cell {
   width: 255px;
@@ -17,6 +19,8 @@
   width: 117px;
   height: 120px;
   position: relative;
+  display: flex;
+  flex-direction: column;
   align-self: center;
 }
 .technology__namber-text {
@@ -28,12 +32,13 @@ line-height: 120px;
 letter-spacing: 0em;
 z-index: 1;
 color: rgba(16, 16, 16, 0.08);
+margin-bottom: -61px ;
+}
+.technology__picture-container {
+  align-self: center;
 }
 .technology__picture {
   z-index: 2;
-  position: absolute;
-  top: 59px;
-  left: 18px;
 }
 .technology__cell-heading {
 margin: 0;

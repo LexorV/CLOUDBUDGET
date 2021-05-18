@@ -21,3 +21,8 @@
   align-self: center;
   text-align: center;
 }
+.heading__technology {
+  align-self: center;
+  padding-bottom: 52px;
+  padding-top: 63px;
+}
