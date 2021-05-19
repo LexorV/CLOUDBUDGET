@@ -4,6 +4,7 @@
   display: flex;
   flex-direction: column;
   position: relative;
+  overflow: hidden;
 }
 .management__text-container {
   width: 445px;
